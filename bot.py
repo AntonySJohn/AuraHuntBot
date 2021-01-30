@@ -55,7 +55,31 @@ def displayQuestion(update:Update, context:CallbackContext):
 def displayRules(update:Update, context:CallbackContext):
     bot.send_message(
         chat_id=update.effective_chat.id,
-        text = "Rules...."
+        text = """Alright, so here's how this works...
+You will be presented with the current question you are on using the /question command.
+To submit an answer, type in /answer and then your submission.
+For example,
+
+/question
+->Where would you find Chuck Norris?
+/answer False. Chuck Norris finds you.
+->Correct!
+
+/question
+-> How many minutes of brooding silence do you get when you combine all the Twilight movies?
+/answer 26
+-> Correct!
+
+You'll receive a confirmation specifying whether your answer is correct or wrong.
+
+If it is the right answer, the next time you enter /question you will be presented with another question.
+
+Particpants will have 24 hours to go through all the questions and submit their solutions.
+
+You may check your progress at any time by using the /progress command.
+
+Good luck!
+        """
     )
 
 def getAnswer(update: Update,context: CallbackContext):
