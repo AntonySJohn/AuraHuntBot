@@ -25,7 +25,7 @@ def displayStartMessage(update:Update, context:CallbackContext):
 
 It is time for thee to set forth on thy epic journey!
 
-Here is your secret quest numerals: {update.effective_chat.id}
+Here is your unique chat id: {update.effective_chat.id}
 
 Head on over to /rules to figure out what you need to do..
         """
