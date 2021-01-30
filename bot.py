@@ -106,7 +106,7 @@ def getAnswer(update: Update,context: CallbackContext):
                     bot.send_message(
                     chat_id=update.effective_chat.id,
                     text = """Huzzaaa... a splendid victory!
-Forge ahead to your next quest.
+Forge ahead to your next quest -> /question
                  """
                 )
                 else:
