@@ -3,8 +3,8 @@ from telegram.ext import *
 from questions import Questions
 import database as db
 
-bot = Bot("1535184201:AAFfNVL7vU59h_QxX46VSFI75xg4-X8gMD4")
-updater = Updater("1535184201:AAFfNVL7vU59h_QxX46VSFI75xg4-X8gMD4", use_context=True)
+bot = Bot("add bot key here")
+updater = Updater("add bot key here", use_context=True)
 progress = {
     1: "░░░░░░░░░░░░░ 0%",
     2: "██░░░░░░░░░░░ 16%",
