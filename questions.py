@@ -1,6 +1,8 @@
 from telegram import *
 from telegram.ext import *
 
+
+#Pheeew,didn't have a lot of time that's why the questions are implemented like this uwu
 class Questions:
     QUESTIONS = [
     {
